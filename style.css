@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+    margin: 0;
+    padding: 0;
+  }
+body {
+  font-family: 'Poppins';
+}
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    background-color: white;
+    color: black;
+    width:100%;
+    
+    
+  }
+  nav {
+    width: 600px;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    font-size:1.8em;
+    cursor:pointer;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  #search{
+      display: flex;
+      flex-direction: row;
+      margin: 10px;
+  }
+  #search img{
+      height: 40px;
+      width: 85px;
+      align-items: center;
+      padding:15px;
+  }
+  .search-part, .login-buttons{
+      display: flex;
+      flex-direction: row;
+      color: black;
+  }
+  .search-part{
+      margin: 100px 30px;
+      height: 50px;
+      width: 950px;
+      background-color: #f2f2f2;
+  }
+  .s-box{
+    width: 800px;
+      align-self: center;
+      border:none;
+      line-height: 1;
+      background-color: #f2f2f2;
+      color: black;
+      font-size:20px;
+      font-weight: lighter;
+      padding:10px;
+      margin: 0 5px;
+
+  }
+  .s-button{
+        background-color: black;
+        width:120px;
+        color: white;
+        font-size: 20px;
+        border: none;
+        font-weight: bold;
+        text-align:center;
+        cursor:pointer;
+        padding: 0;
+        margin: 0;
+
+  }
+  .login-buttons input{
+      width: 90px;
+  }
+  .sign-up, .sign-in{
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 5px;
+      cursor:pointer;
+  }
+  .sign-up{
+      background-color: white;
+      border-color: grey;
+      border-width: 1px;
+      height: 50px;
+      margin:10px;
+  }
+  .sign-in{
+      background-color: white;
+      border: none;
+      color: black;
+  }
+  #content{
+    background-image: url(./assets/background2.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px;
+    text-align: center;
+}
+#content h3{
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+#content h2 {
+    font-size: 70px;
+    margin-bottom: 2px;
+}
+
+
+
+.free{
+    padding-left: 25em;
+    text-align:start;
+    background-color: brown;
+    color: white;
+    border-bottom: tomato;
+    padding-inline: 10px;
+    margin-right: 2px;
+    padding:14px 25px;
+    align-items: center;
+   text-decoration:none ;
+   margin-left:28em;
+   
+}
+.fr{
+    padding-left: 25em;
+    text-align: center;
+    align-items:centre;
+    
+   
+    background-color:#FF1493;
+    color: white;
+    text-decoration: none;
+    padding: 14px 25px;
+    outline-color: violet;
+  }
+  #content h2,h3, p{
+    text-align: center;
+    color: white;
+}
+
+
+#section2{
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    
+}
+#section2 h2,p{
+    width: 50%;
+    text-align: center;
+    padding-left: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    
+}
+#section2 p{
+    margin-left: 20em;
+}
+
+
+#npm-list{
+      display: flex;
+      justify-content: space-around;
+      margin: 40px 350px;
+  }
+
+#npm-list .icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 30px 10px 30px 10px;
+  }
+  #npm-list img{
+      width: 60px;
+      border-radius: 50%;
+  }
+  #npm-list span,p{
+      margin:10px 0;
+  }
+  #npm-list span{
+      font-weight: 600;
+      color: #333333;
+      line-height: 1.5em;
+  }
+
+  #npm-list p {
+      font-size: 1em;
+      color: #333333;
+      line-height: 1.5em;
+      margin-bottom: 2em;
+  }
+  
+  .icon a{
+      text-decoration: none;
+      padding:0.2em;
+  }
+  .learn-button{
+    font-weight: 900;
+    border-radius: 40px;
+    border-width: 1px;
+    padding: 1em;
+    width: 180px;
+    text-transform: uppercase;
+    border-color: black;
+    letter-spacing: 1.5px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+
+  #sect4{
+    display: flex;
+    text-align: center;
+    background:url(./assets/background.png);
+    color:white;
+    height:250px;
+  
+}
+#sect4 h2{
+    padding-top: 20px;;
+}
+#sect4 .heart{
+    width: 50px;
+    height: 20px;
+    filter: invert(1);
+    
+  }
+  #sect4 p{
+      align-items: center;
+      margin-left: 15em;
+      padding-bottom: 20px;
+      padding-top: 40px;
+  }
+  
+  #sect5{
+      display: flex;
+      background-color: white;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      
+  }
+  .img{
+    height:500px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+#sect6{
+    background-color: white;
+    color:black;
+    padding-top: 50px;
+}
+#sect6 ul{
+    list-style: none;
+}
+#sect6 ul li{
+    margin:10px 0;
+}
+#help{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+#help div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  
+  
+  
+ 
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+  
+ 
+  
+  
+  .but1{
+      display: flex;
+      flex-direction: column;
+      padding: 40px 0;
+      text-align: center;
+      margin-left: 5em;
+      justify-content: center;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
